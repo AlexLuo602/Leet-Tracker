@@ -1,17 +1,23 @@
 # Leet-Tracker
 
-## Problem
-Grinding Leetcode has become essential during job applications, especially for OAs (online assessments) and technical interviews. However, it can become overwhelming for new users, and it can be hard to keep track of your progress and improvement.
+## Overview
+Leet-Tracker is a Chrome extension + web app that helps users track their **LeetCode** progress, analyze problem-solving patterns, and get AI-powered recommendations.
 
-## Solution
-Our solution aims to provide an all in one support for users that want to hone their technical skills through Leetcode.
+## Features
+✅ Track time spent on each problem  
+✅ Log difficulty & thoughts for each question  
+✅ Visualize progress and trends in a dashboard  
+✅ Maintain coding **streaks & playlists** (e.g., Grind75)  
+✅ AI-powered problem recommendations  
+✅ (Future) Flashcards & trivia for reviewing concepts  
 
-Users can install a Chrome extension that will help track the time they take for problems, as well as their thoughts and perceived difficulty. The backend will keep track of user metrics, such as time taken, as well as their perceived difficulty, and provide useful insights in the user's progress.
+## Installation & Usage
+🔹 [Chrome Extension](#) - Coming soon  
+🔹 [Web Dashboard](#) - Coming soon  
+🔹 **To contribute, check out** [`docs/vision.md`](docs/vision.md)
 
-In addition, users will now be able to add playlists, such as grind 75, and keep track of their progress through the website. There will also be a streak system that will motivate users to commit to their goals.
-
-Finally, there will be a recommendation system in place that can recommend problems based the user's gap in knowledge, as well as bringing up past problems that users partiularly struggled with.
-
-## Nice to Haves:
-- Some flash cards or trivia in place to help users understand the problem better before writing the code
-     - This will allow users to review past problems and refresh their memory without having to recode something they already did.
+## Tech Stack
+- **Frontend:** Next.js, TailwindCSS
+- **Backend:** Node.js (Express) + FastAPI
+- **Database:** PostgreSQL (Supabase), Redis (caching)
+- **Deployment:** Vercel, Render, Upstash Redis
