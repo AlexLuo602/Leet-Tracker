@@ -18,6 +18,6 @@ Leet-Tracker is a Chrome extension + web app that helps users track their **Leet
 
 ## Tech Stack
 - **Frontend:** Next.js, TailwindCSS
-- **Backend:** Node.js (Express) + FastAPI
+- **Backend:** Node.js (Express) + FastAPI. Add Python microservice for stats/metric computation, AI/ML based recommendations, Flashcard question generation
 - **Database:** PostgreSQL (Supabase), Redis (caching)
 - **Deployment:** Vercel, Render, Upstash Redis
